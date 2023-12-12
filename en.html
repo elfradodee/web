@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/cello/favicon.png">
+    <title>CELLO's web</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/cello/cello.css">
+</head>
+<body class="row">
+    
+<main class="col-md-8 offset-md-2">
+
+    <div class="container">
+
+        <div id="preloader" class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+            <h1>CELLO's web</h1>
+            <div class="spinner-grow text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <header>
+            <h5 class="font-varela">ELFRADO DEE VERNANDACELLO</h5>
+            <h1>CELLO</h1>
+        </header>
+        
+        <menu class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills align-items-center align-content-center align-self-center">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" id="btnAbout" onclick="menuAbout();">About Me</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnEdu" onclick="menuEdu();">Education</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnExp" onclick="menuExp();">Experience</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnAward" onclick="menuAward();">Awards</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnAward" onclick="menuSkill();">Skills</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnContact" onclick="menuContact();">Contact</a></li>
+            </ul>
+        </menu>
+
+        <hr>
+
+        <div id="about">
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <img src="assets/cello/cello-mc-half.png" alt="" class="rounded-pill border-primary border-start border-bottom w-100 mh-100">
+                </div>
+
+                <div class="col-sm-8">
+
+                    <div class="wrapper text-center">
+                        <ul class="dynamic-txts">
+                            <li><span>Student</span></li>
+                            <li><span>Developer</span></li>
+                            <li><span>Author</span></li>
+                            <li><span>Musician</span></li>
+                            <li><span>Artist</span></li>
+                        </ul>
+                    </div>
+
+                    <table class="table">
+                        <tr>
+                            <td><i class="bi bi-person-circle"></i></td>
+                            <td>Elfrado Dee Vernandacello</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-calendar-check-fill"></i></td>
+                            <td>March 11<sup>st</sup>, 2007</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-geo-alt-fill"></i></td>
+                            <td>Malang, East Java, Indonesia</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="edu" class="d-none">
+            <h2>Education</h2><br>
+
+            <table class="table">
+                <tr>
+                    <td>2022-now</td>
+                    <td>: Malang, St. Albertus Catholic Senior High School</td>
+                </tr>
+                <tr>
+                    <td>2019-2022</td>
+                    <td>: Malang, St. Mary II Catholic Junior High School</td>
+                </tr>
+                <tr>
+                    <td>2013-2019</td>
+                    <td>: Malang, Kalam Kudus Christian Elementary School</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="exp" class="d-none">
+            <h2>Experience</h2><br>
+            <div class="row">
+                <div class="">
+                    <h4>Organizational</h4>
+                    <table class="table table-striped">
+                        <tr>
+                            <td>July 2023-now</td>
+                            <td>Chairman of the Class Representative Assembly</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>July 2022-now</td>
+                            <td>Leader of Classes of 2022</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>July 2023</td>
+                            <td>MC of New Students Orientation</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>July 2022-June 2023</td>
+                            <td>Vice Chairman of the Class Representative Assembly</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>June 2023</td>
+                            <td>Head of Preparation Committee for Scout's Camp</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>May 2023</td>
+                            <td>Head of Committee for Prom Night</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>January-February 2023</td>
+                            <td>Deputy Chairman for Student Council's Reorganization Convention</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>January 2023</td>
+                            <td>Deputy Chairman for Student Council's President Candidates Debate</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>August-November 2022</td>
+                            <td>Member of Publication Committee for Dempo Fair XLIV</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>September 2022</td>
+                            <td>Member of Committee for Edufair</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>May 2021-May 2022</td>
+                            <td>Vice President of the Student Council</td>
+                            <td>St. Mary II Malang JHS</td>
+                        </tr>
+                        <tr>
+                            <td>November 2019-May 2021</td>
+                            <td>Student Council Administration Member for Patriotism Development</td>
+                            <td>St. Mary II Malang JHS</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="">
+                    <h4>Art & Literature</h4>
+                    <table class="table table-striped">
+                        <tr>
+                            <td>July 2023-now</td>
+                            <td>Coordinator of publication and promotion for gamelan extracurricular and club</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>January 2023-now</td>
+                            <td>Coordinator for gamelan extracurricular and club</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>November 2023</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "Udawa's Inheritance" for the event of Dempo Fair XLV</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>October 2023</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "Timun Mas" for the event of Rihand Creative International Book Tour II</td>
+                            <td>Yonsei University, Seoul, Korea</td>
+                        </tr>
+                        <tr>
+                            <td>October 2023</td>
+                            <td>Author of Poems Anthology Book "Kacamata" in Rihand Creative International Book Tour II</td>
+                            <td>Yonsei University, Seoul, Korea</td>
+                        </tr>
+                        <tr>
+                            <td>October 2022</td>
+                            <td>Participant of the Atsanti Cultural Camp II at the Temple of Borobudur</td>
+                            <td>Atma Nusvantara Jati, Magelang, Central Java</td>
+                        </tr>
+                        <tr>
+                            <td>August 2023</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "Abimanyu's Devotion" for the event of Malam Genitu</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>July 2023</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "Dewa Ruci" for the event of New Student Orientation</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>June 2023</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "The Offerings of the Kings" for the event of Art Festival XI</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>May 2023</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet for the event of Thanksgiving</td>
+                            <td>East Java Christian Church, Tulangbawang, Malang, East Java, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>April 2023</td>
+                            <td>Pianist for Dempo Choir Competition</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>April 2023</td>
+                            <td>Choir member (bass voice) for Dempo Choir Competition</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>October 2022</td>
+                            <td>Participant of the Atsanti Cultural Camp at the Temple of Borobudur</td>
+                            <td>Atma Nusvantara Jati, Magelang, Central Java</td>
+                        </tr>
+                        <tr>
+                            <td>August 2022</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "The Downfall of Alengka" for the event of Malam Genitu</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>February 2020</td>
+                            <td>Author of Novel Book "Bapak?" in Rihand Creative International Book Tour</td>
+                            <td>Kuala Lumpur, Malaysia</td>
+                        </tr>
+                        <tr>
+                            <td>January 2017</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "The Tale of Bimasena" for the event of Rebo Wekasan</td>
+                            <td>Arts Council of Malang</td>
+                        </tr>
+                        <tr>
+                            <td>March 2016</td>
+                            <td>Author of Wayang Kulit Encyclopedia</td>
+                            <td>(not published for public)</td>
+                        </tr>
+                        <tr>
+                            <td>March 2016</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "Daniel the Smart Kid" for the event of Passover</td>
+                            <td>Church of the Assemblies of God, Malang, East Java, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>December 2015</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "God's Grace" for the event of Christmas</td>
+                            <td>Kalam Kudus Christian Church, Malang, East Java, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>December 2015</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "The Birth of Wisanggeni" for the event of the Anniversary of the East Java Christian Church</td>
+                            <td>Church's Grand Assembly, Malang, East Java, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>December 2014</td>
+                            <td>Puppeteer of Javanese traditional shadow puppet with a story titled "The Death of Rahwana" for the event of the Anniversary of the East Java Christian Church</td>
+                            <td>Church's Grand Assembly, Malang, East Java, Indonesia</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="">
+                    <h4>Science and Technology</h4>
+                    <table class="table table-striped">
+                        <tr>
+                            <td>July 2022-now</td>
+                            <td>Member of the Economics Club</td>
+                            <td>St. Albertus Malang SHS</td>
+                        </tr>
+                        <tr>
+                            <td>March 2020-now</td>
+                            <td>Head of the Web Development Sub-Department</td>
+                            <td>PT Rihand Kreatif Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>March 2020-now</td>
+                            <td>Member of the IT Department</td>
+                            <td>PT Rihand Kreatif Indonesia</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="award" class="d-none">
+            <h2>Awards</h2><br>
+
+            <div>
+                <h4>Academic</h4>
+                <table class="table table-striped">
+                    <tr>
+                        <td>November 2023</td>
+                        <td>1<sup>st</sup> Champion of National Accounting-Economics Competition</td>
+                        <td>University of Sanata Dharma, Yogyakarta, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>October 2023</td>
+                        <td>Finalist of National Scientific Paper Competition</td>
+                        <td>Malang State University</td>
+                    </tr>
+                    <tr>
+                        <td>October 2023</td>
+                        <td>2<sup>nd</sup> Champion of National Accounting Competition</td>
+                        <td>Malang State Polytechnic</td>
+                    </tr>
+                    <tr>
+                        <td>September 2023</td>
+                        <td>Semifinalist of National Accounting Competition</td>
+                        <td>Airlangga University, Surabaya, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>July 2023</td>
+                        <td>2<sup>nd</sup> Ranking Student from 2<sup>nd</sup> semester Social Studies major of the 2022 classes</td>
+                        <td>St. Albertus Malang SHS</td>
+                    </tr>
+                    <tr>
+                        <td>July 2023</td>
+                        <td>Participant of Province Science Olympiad - Economics</td>
+                        <td>Ministry of Education, Culture, Research, and Technology of the Republic of Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>June 2023</td>
+                        <td>Finalist of National Brexplore Branding & Business Plan Competition</td>
+                        <td>University of Prasetiya Mulya, Banten, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>April 2023</td>
+                        <td>Winner of City Science Olympiad - Economics</td>
+                        <td>Ministry of Education, Culture, Research, and Technology of the Republic of Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>March 2023</td>
+                        <td>2<sup>nd</sup> Champion of Province Accounting Festival</td>
+                        <td>PGRI Dewantara Institute of Economic Science, Jombang, East Java, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>January 2023</td>
+                        <td>1<sup>st</sup> Ranking Student from 1<sup>st</sup> semester Social Studies major of the 2022 classes</td>
+                        <td>St. Albertus Malang SHS</td>
+                    </tr>
+                    <tr>
+                        <td>November 2022</td>
+                        <td>Finalist of National Run Accounting & Investment Competition</td>
+                        <td>University of Ciputra, Surabaya, East Java, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>September 2022</td>
+                        <td>Finalist of National Brawijaya Accounting Fair</td>
+                        <td>University of Brawijaya, Malang, East Java, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 2022</td>
+                        <td>10<sup>th</sup> best school grades</td>
+                        <td>St. Mary II Malang JHS</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h4>Non-Academic</h4>
+                <table class="table table-striped">
+                    <tr>
+                        <td>October 2023</td>
+                        <td>Young Author award in Rihand Creative International Book Tour II</td>
+                        <td>Yonsei University, Seoul, Korea</td>
+                    </tr>
+                    <tr>
+                        <td>October 2023</td>
+                        <td>Javanese traditional puppeteer in Rihand Creative International Book Tour II</td>
+                        <td>Yonsei University, Seoul, Korea</td>
+                    </tr>
+                    <tr>
+                        <td>July 2023</td>
+                        <td>10<sup>th</sup> top non-academic achievements</td>
+                        <td>St. Albertus Malang SHS</td>
+                    </tr>
+                    <tr>
+                        <td>July 2022</td>
+                        <td>Gold medal winner of National Youth Music Festival (Piano)</td>
+                        <td>Perfect Tone</td>
+                    </tr>
+                    <tr>
+                        <td>Juny 2022</td>
+                        <td>Student with Best Personality award</td>
+                        <td>St. Mary II Malang JHS</td>
+                    </tr>
+                    <tr>
+                        <td>February 2020</td>
+                        <td>Neuro-Smart Author award in Rihand Creative International Book Tour</td>
+                        <td>Kuala Lumpur, Malaysia</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <div id="skill" class="d-none">
+            <h2>Skills</h2><br>
+            <table class="table table-striped">
+                <tr>
+                    <th>Art</th>
+                    <th>Sci-Tech</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Javanese traditional shadow puppeteer</li>
+                            <li>Modern music:
+                                <ul>
+                                    <li>Piano</li>
+                                    <li>Guitar</li>
+                                    <li>Harmonica</li>
+                                    <li>Pianica</li>
+                                    <li>Recorder</li>
+                                </ul>
+                            </li>
+                            <li>Gamelan music:
+                                <ul>
+                                    <li>Kendhang</li>
+                                    <li>Gender</li>
+                                    <li>Rebab</li>
+                                    <li>Bonang</li>
+                                    <li>Gong</li>
+                                    <li>Gambang</li>
+                                    <li>Kenong</li>
+                                    <li>Demung</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Social studies:
+                                <ul>
+                                    <li>Accounting</li>
+                                    <li>Economics</li>
+                                    <li>Economic mathematics</li>
+                                </ul>
+                            </li>
+                            <li>Technologies:
+                                <ul>
+                                    <li>Front-end web development:
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                    </li>
+                                    <li>Back-end web development:
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>MySQL</li>
+                                        </ul>
+                                    </li>
+                                    <li>Other frameworks:
+                                        <ul>
+                                            <li>WordPress</li>
+                                            <li>Bootstrap</li>
+                                            <li>DataTable</li>
+                                            <li>SweetAlert</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div id="contact" class="d-none">
+            <h2>Get In Touch</h2><br>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <table class="table">
+                        <tr>
+                            <td><i class="bi bi-globe"></i></td>
+                            <td><a href="https://elfrado.dev">elfrado.dev</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-envelope-at-fill"></i></td>
+                            <td><a href="mailto:hello@elfrado.dev">hello@elfrado.dev</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-github"></i></td>
+                            <td><a href="https://github.com/elfradodee" target="_blank">github/elfradodee</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/cello/cello-mc-simulasi.jpg" class="card" width="100%" alt="">
+                </div>
+            </div>
+        
+            
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <footer class="mt-5 mb-5 text-center">
+        <hr>
+        Elfrado Dee &copy; 2023
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="en.html"><img src="assets/cello/flag-uk.png" width="20px" alt=""></a>&nbsp;&nbsp;
+            <a href="id.html"><img src="assets/cello/flag-id.png" width="20px" alt=""></a>
+        </div>
+        <hr>
+    </footer>
+
+</main>
+
+<script src="assets/cello/cello.js"></script>
+
+</body>
+</html>

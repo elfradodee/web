@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/cello/favicon.png">
+    <title>CELLO's web</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/cello/cello.css">
+</head>
+<body class="row">
+    
+<main class="col-md-8 offset-md-2">
+
+    <div class="container">
+
+        <div id="preloader" class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+            <h1>CELLO's web</h1>
+            <div class="spinner-grow text-primary" role="status">
+                <span class="visually-hidden">Memuat...</span>
+            </div>
+        </div>
+
+        <header>
+            <h5 class="font-varela">ELFRADO DEE VERNANDACELLO</h5>
+            <h1>CELLO</h1>
+        </header>
+        
+        <menu class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills align-items-center align-content-center align-self-center">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" id="btnAbout" onclick="menuAbout();">Tentang Saya</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnEdu" onclick="menuEdu();">Pendidikan</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnExp" onclick="menuExp();">Pengalaman</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnAward" onclick="menuAward();">Prestasi</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnAward" onclick="menuSkill();">Keterampilan</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="btnContact" onclick="menuContact();">Kontak</a></li>
+            </ul>
+        </menu>
+
+        <hr>
+
+        <div id="about">
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <img src="assets/cello/cello-mc-half.png" alt="" class="rounded-pill border-primary border-start border-bottom w-100 mh-100">
+                </div>
+
+                <div class="col-sm-8">
+
+                    <div class="wrapper text-center">
+                        <ul class="dynamic-txts">
+                            <li><span>Pelajar</span></li>
+                            <li><span>Pengembang</span></li>
+                            <li><span>Penulis</span></li>
+                            <li><span>Musisi</span></li>
+                            <li><span>Seniman</span></li>
+                        </ul>
+                    </div>
+
+                    <table class="table">
+                        <tr>
+                            <td><i class="bi bi-person-circle"></i></td>
+                            <td>Elfrado Dee Vernandacello</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-calendar-check-fill"></i></td>
+                            <td>11 Maret 2007</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-geo-alt-fill"></i></td>
+                            <td>Malang, Jawa Timur, Indonesia</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="edu" class="d-none">
+            <h2>Pendidikan</h2><br>
+
+            <table class="table">
+                <tr>
+                    <td>2022-sekarang</td>
+                    <td>: Malang, SMA Katolik St. Albertus</td>
+                </tr>
+                <tr>
+                    <td>2019-2022</td>
+                    <td>: Malang, SMP Katolik Santa Maria II</td>
+                </tr>
+                <tr>
+                    <td>2013-2019</td>
+                    <td>: Malang, SD Kristen Kalam Kudus</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="exp" class="d-none">
+            <h2>Pengalaman</h2><br>
+            <div class="row">
+                <div class="">
+                    <h4>Organisasi</h4>
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Juli 2023-sekarang</td>
+                            <td>Ketua Ketua Majelis Perwakilan Kelas</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Juli 2022-sekarang</td>
+                            <td>Ketua Angkatan 2022</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Juli 2023</td>
+                            <td>MC kegiatan Pengenalan Lingkungan Sekolah</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Juli 2022-Juni 2023</td>
+                            <td>Wakil Ketua Majelis Perwakilan Kelas</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Juni 2023</td>
+                            <td>Ketua Persiapan Tampilan Angkatan Kemah Besar Pramuka Angkatan 2022</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Mei 2023</td>
+                            <td>Ketua Pelaksana Prom Night</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Januari-Februari 2023</td>
+                            <td>Wakil Ketua Sidang Reorganisasi OSIS</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Januari 2023</td>
+                            <td>Wakil Ketua Sidang Debat Calon Ketua OSIS</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Agustus-November 2022</td>
+                            <td>Anggota Seksi Publikasi panitia kegiatan Dempo Fair XLIV</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>September 2022</td>
+                            <td>Anggota Panitia Edufair</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Mei 2021-Mei 2022</td>
+                            <td>Wakil Ketua OSIS</td>
+                            <td>SMP Katolik Santa Maria II Malang</td>
+                        </tr>
+                        <tr>
+                            <td>November 2019-Mei 2021</td>
+                            <td>Anggota Pengurus OSIS Seksi Bidang Pembinaan Patriotisme dan Bela Negara</td>
+                            <td>SMP Katolik Santa Maria II Malang</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="">
+                    <h4>Seni & Sastra</h4>
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Juli 2023-sekarang</td>
+                            <td>Koordinator publikasi dan promosi ekstrakurikuler karawitan dan klub gamelan</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Januari 2023-sekarang</td>
+                            <td>Koordinator ekstrakurikuler karawitan dan klub gamelan</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>November 2023</td>
+                            <td>Dalang wayang kulit dengan cerita "Warisan Udawa" untuk kegiatan Dempo Fair XLV</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Oktober 2023</td>
+                            <td>Dalang wayang kulit dengan cerita "Timun Mas" untuk kegiatan Rihand Creative International Book Tour II</td>
+                            <td>Yonsei University, Seoul, Korea</td>
+                        </tr>
+                        <tr>
+                            <td>Oktober 2023</td>
+                            <td>Penulis buku Antologi Puisi "Kacamata" di Rihand Creative International Book Tour II</td>
+                            <td>Yonsei University, Seoul, Korea</td>
+                        </tr>
+                        <tr>
+                            <td>Oktober 2022</td>
+                            <td>Peserta Kemah Budaya Atsanti II di Candi Borobudur</td>
+                            <td>Atma Nusvantara Jati, Magelang, Jawa Tengah</td>
+                        </tr>
+                        <tr>
+                            <td>Agustus 2023</td>
+                            <td>Dalang wayang kulit dengan cerita "Kesetiaan Abimanyu" untuk kegiatan Malam Genitu</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Juli 2023</td>
+                            <td>Dalang wayang kulit dengan cerita "Dewa Ruci" untuk kegiatan Pengenalan Lingkungan Sekolah</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Juni 2023</td>
+                            <td>Dalang wayang kulit dengan cerita "Persembahan Raja-Raja" untuk kegiatan Art Festival XI</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>May 2023</td>
+                            <td>Dalang wayang kulit untuk kegiatan Hari Raya Persembahan</td>
+                            <td>Greja Kristen Jawi Wetan (GKJW) Tulangbawang, Malang, Jawa Timur, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>April 2023</td>
+                            <td>Pianis kegiatan Dempo Choir Competition</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>April 2023</td>
+                            <td>Anggota koor (suara bass) kegiatan Dempo Choir Competition</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Oktober 2022</td>
+                            <td>Peserta Atsanti Youth Camp di Candi Borobudur</td>
+                            <td>Atma Nusvantara Jati, Magelang, Jawa Tengah</td>
+                        </tr>
+                        <tr>
+                            <td>Agustus 2022</td>
+                            <td>Dalang wayang kulit dengan cerita "Runtuhnya Alengka" untuk kegiatan Malam Genitu</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Februari 2020</td>
+                            <td>Penulis buku Novel "Bapak?" di Rihand Creative International Book Tour</td>
+                            <td>Kuala Lumpur, Malaysia</td>
+                        </tr>
+                        <tr>
+                            <td>Januari 2017</td>
+                            <td>Dalang wayang kulit dengan cerita "Perjuangan Bimasena" untuk kegiatan Rebo Wekasan</td>
+                            <td>Dewan Kesenian Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Maret 2016</td>
+                            <td>Penulis buku Ensiklopedia Wayang Kulit</td>
+                            <td>(tidak diterbitkan untuk umum)</td>
+                        </tr>
+                        <tr>
+                            <td>Maret 2016</td>
+                            <td>Dalang wayang kulit dengan cerita "Daniel Anak Cerdas" untuk kegiatan ibadah Paskah</td>
+                            <td>GSJA Maranatha, Malang, Jawa Timur, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>Desember 2015</td>
+                            <td>Dalang wayang kulit dengan cerita "Wayang Wahyu" untuk kegiatan ibadah Natal dan tutup tahun</td>
+                            <td>Gereja Kristen Kalam Kudus, Malang, Jawa Timur, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>Desember 2015</td>
+                            <td>Dalang wayang kulit dengan cerita "Lahirnya Wisanggeni" untuk kegiatan perayaan HUT GKJW</td>
+                            <td>Balewiyata Majelis Agung GKJW, Malang, Jawa Timur, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>Desember 2014</td>
+                            <td>Dalang wayang kulit dengan cerita "Kematian Rahwana" untuk kegiatan perayaan HUT GKJW</td>
+                            <td>Balewiyata Majelis Agung GKJW, Malang, Jawa Timur, Indonesia</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="">
+                    <h4>Sains dan Teknologi</h4>
+                    <table class="table table-striped">
+                        <tr>
+                            <td>Juli 2022-sekarang</td>
+                            <td>Anggota Klub Ekonomi</td>
+                            <td>SMA Katolik St. Albertus Malang</td>
+                        </tr>
+                        <tr>
+                            <td>Maret 2020-sekarang</td>
+                            <td>Kepala Sub-Departemen Pengembangan Web</td>
+                            <td>PT Rihand Kreatif Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>Maret 2020-sekarang</td>
+                            <td>Anggota Departemen IT</td>
+                            <td>PT Rihand Kreatif Indonesia</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="award" class="d-none">
+            <h2>Prestasi</h2><br>
+
+            <div>
+                <h4>Akademik</h4>
+                <table class="table table-striped">
+                    <tr>
+                        <td>November 2023</td>
+                        <td>Juara 1 Lomba Akuntansi-Ekonomi Nasional</td>
+                        <td>Universitas Sanata Dharma, Yogyakarta, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Oktober 2023</td>
+                        <td>Finalis Lomba Karya Tulis Ilmiah Nasional</td>
+                        <td>Universitas Negeri Malang</td>
+                    </tr>
+                    <tr>
+                        <td>Oktober 2023</td>
+                        <td>Juara 2 Nasional bidang Ekonomi (Accounting, Storytelling, English Competition)</td>
+                        <td>Politeknik Negeri Malang</td>
+                    </tr>
+                    <tr>
+                        <td>September 2023</td>
+                        <td>Semifinalis Airlangga Teenange Accounting Competition</td>
+                        <td>Universitas Airlangga, Surabaya, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Juli 2023</td>
+                        <td>Peringkat Paralel 2 jurusan IPS angkatan 2022 semester 2</td>
+                        <td>SMA Katolik St. Albertus Malang</td>
+                    </tr>
+                    <tr>
+                        <td>Juli 2023</td>
+                        <td>Peserta Olimpiade Sains Provinsi bidang Ekonomi</td>
+                        <td>Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Juni 2023</td>
+                        <td>Finalis lomba nasional Brexplore Branding & Business Plan Competition</td>
+                        <td>Universitas Prasetiya Mulya, Banten, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>April 2023</td>
+                        <td>Pemenang Olimpiade Sains Kota bidang Ekonomi</td>
+                        <td>Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Maret 2023</td>
+                        <td>Juara 2 Provinsi Lomba Akuntansi</td>
+                        <td>STIE PGRI Dewantara, Jombang, Jawa Timur, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Januari 2023</td>
+                        <td>Peringkat Paralel 1 jurusan IPS angkatan 2022 semester 1</td>
+                        <td>SMA Katolik St. Albertus Malang</td>
+                    </tr>
+                    <tr>
+                        <td>November 2022</td>
+                        <td>Finalis kompetisi nasional Run Accounting & Investment Competition</td>
+                        <td>Universitas Ciputra, Surabaya, Jawa Timur, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>September 2022</td>
+                        <td>Finalis lomba nasional Brawijaya Accounting Fair</td>
+                        <td>Universitas Brawijaya, Malang, Jawa Timur, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td>Juni 2022</td>
+                        <td>Peringkat 10 Paralel nilai sekolah terbaik</td>
+                        <td>SMP Katolik Santa Maria II Malang</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h4>Non-Akademik</h4>
+                <table class="table table-striped">
+                    <tr>
+                        <td>Oktober 2023</td>
+                        <td>Penghargaan Penulis Muda di Rihand Creative International Book Tour II</td>
+                        <td>Yonsei University, Seoul, Korea</td>
+                    </tr>
+                    <tr>
+                        <td>Oktober 2023</td>
+                        <td>Dalang wayang kulit di Rihand Creative International Book Tour II</td>
+                        <td>Yonsei University, Seoul, Korea</td>
+                    </tr>
+                    <tr>
+                        <td>Juli 2023</td>
+                        <td>Peringkat 10 prestasi non-akademik tertinggi</td>
+                        <td>SMA Katolik St. Albertus Malang</td>
+                    </tr>
+                    <tr>
+                        <td>Juli 2022</td>
+                        <td>Pemenang medali emas di lomba National Youth Music Festival (Piano)</td>
+                        <td>Perfect Tone</td>
+                    </tr>
+                    <tr>
+                        <td>Juni 2022</td>
+                        <td>Penghargaan Siswa Berkepribadian Baik</td>
+                        <td>SMP Katolik Santa Maria II Malang</td>
+                    </tr>
+                    <tr>
+                        <td>Februari 2020</td>
+                        <td>Penghargaan Penulis Neuro-Smart di Rihand Creative International Book Tour</td>
+                        <td>Kuala Lumpur, Malaysia</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <div id="skill" class="d-none">
+            <h2>Keterampilan</h2><br>
+            <table class="table table-striped">
+                <tr>
+                    <th>Kesenian</th>
+                    <th>Saintek</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Dalang wayang kulit</li>
+                            <li>Musik modern:
+                                <ul>
+                                    <li>Piano</li>
+                                    <li>Gitar</li>
+                                    <li>Harmonika</li>
+                                    <li>Pianika</li>
+                                    <li>Recorder</li>
+                                </ul>
+                            </li>
+                            <li>Musik gamelan:
+                                <ul>
+                                    <li>Kendhang</li>
+                                    <li>Gender</li>
+                                    <li>Rebab</li>
+                                    <li>Bonang</li>
+                                    <li>Gong</li>
+                                    <li>Gambang</li>
+                                    <li>Kenong</li>
+                                    <li>Demung</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Bidang pelajaran:
+                                <ul>
+                                    <li>Akuntansi</li>
+                                    <li>Ekonomi</li>
+                                    <li>Matematika ekonomi</li>
+                                </ul>
+                            </li>
+                            <li>Ilmu teknologi:
+                                <ul>
+                                    <li>Pengembangan web <em>front-end</em>:
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                    </li>
+                                    <li>Pengembangan web <em>back-end</em>:
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>MySQL</li>
+                                        </ul>
+                                    </li>
+                                    <li><em>Framework</em> lain:
+                                        <ul>
+                                            <li>WordPress</li>
+                                            <li>Bootstrap</li>
+                                            <li>DataTable</li>
+                                            <li>SweetAlert</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="contact" class="d-none">
+            <h2>Hubungi Saya</h2><br>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <table class="table">
+                        <tr>
+                            <td><i class="bi bi-globe"></i></td>
+                            <td><a href="https://elfrado.dev">elfrado.dev</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-envelope-at-fill"></i></td>
+                            <td><a href="mailto:hello@elfrado.dev">hello@elfrado.dev</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-github"></i></td>
+                            <td><a href="https://github.com/elfradodee" target="_blank">github/elfradodee</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/cello/cello-mc-simulasi.jpg" class="card" width="100%" alt="">
+                </div>
+            </div>
+        
+            
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <footer class="mt-5 mb-5 text-center">
+        <hr>
+        Elfrado Dee &copy; 2023
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="en.html"><img src="assets/cello/flag-uk.png" width="20px" alt=""></a>&nbsp;&nbsp;
+            <a href="id.html"><img src="assets/cello/flag-id.png" width="20px" alt=""></a>
+        </div>
+        <hr>
+    </footer>
+
+</main>
+
+<script src="assets/cello/cello.js"></script>
+
+</body>
+</html>
