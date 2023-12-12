@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Gentium Book Plus', serif;
+    color: #454545;
+}
+
+h1,h2,h3 .nav-link {
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+
+.font-varela {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+    padding: 5vh;
+}
+
+main {
+    padding-top: 80px;
+}
+
+header {
+    text-align: center;
+}
+
+/***** PRELOADER *****/
+
+#preloader {
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    right: 0%;
+    background-color: white;
+    z-index: 99;
+    transition: all 1s;
+}
+
+#preloader.hide {
+    opacity: 0;
+    visibility: hidden;
+    height: 0; padding: 0; margin: 0; /* optional */
+}
+
+/***** RUNNING TEXT *****/
+
+.wrapper{
+    display: flex;
+}
+.wrapper .dynamic-txts{
+    height: 90px;
+    overflow: hidden;
+}
+.dynamic-txts li{
+    list-style: none;
+    font-size: 40pt;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -360px;
+    }
+}
+.dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+.dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border-left: 2px solid #0d6efd;
+    animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+    40%, 60%{
+        left: calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
+}
